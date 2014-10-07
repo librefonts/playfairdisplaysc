@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [PlayfairDisplaySC-Regular.ttf.ttx, PlayfairDisplaySC-Italic.ttf.ttx,
+  PlayfairDisplaySC-BoldItalic.ttf.ttx, PlayfairDisplaySC-Bold.ttf.ttx, PlayfairDisplaySC-BlackItalic.ttf.ttx,
+  PlayfairDisplaySC-Black.ttf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
